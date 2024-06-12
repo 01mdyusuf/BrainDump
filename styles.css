@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #494D5f;
+}
+
+.header {
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Papyrus';
+}
+
+.watermark {
+    margin: 0;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+.container {
+    text-align: center;
+    background: #d0bdf4;
+    width: 50%;
+    padding: 80px;
+    padding-right: 80px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+textarea {
+    width: 100%;
+    height: 200px;
+    padding: 10px ;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background:  #8458B3;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background:  #8458B3;
+}
+.footer{
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Papyrus';
+}
+
+.signature {
+    position: relative;
+    text-align: right;
+    bottom: 150px;
+    right: 10px;
+    font-family: 'Brush Script MT', cursive;
+    font-size: 24px;
+    color: white;
+    
+}
