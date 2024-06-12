@@ -72,9 +72,9 @@ button:hover {
 }
 
 .signature {
-    position: relative;
+    position: static;
     text-align: right;
-    bottom: 0px;
+    bottom: 10px;
     right: 10px;
     font-family: 'Brush Script MT', cursive;
     font-size: 24px;
